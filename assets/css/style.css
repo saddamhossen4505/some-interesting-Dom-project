@@ -1,0 +1,101 @@
+
+/* google font link */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Dancing+Script&family=Kdam+Thmor+Pro&family=Lobster&family=Oswald:wght@200&family=Pacifico&display=swap');
+
+
+body{
+    background-color: #eee;
+}
+
+
+/* Facebook Application start here.*/
+
+.search{
+    border: 2px solid black;
+    width: 250px;
+    position: relative;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.search input{
+    border: none;
+    outline: none;
+    background-color: #eee;
+}
+
+.search i{
+    font-size: 25px;
+    color: red;
+    position: absolute;
+    right: 5px;
+    top: 7px;
+    display: none;
+}
+
+.toltip{
+    background-color: red;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.toltip_wrapper{
+    background-color: red;
+    color: azure;
+    padding: 8px;
+    position: absolute;
+    bottom: -54px;
+    left: 50px;
+    display: none;
+    border-radius: 5px;
+}
+
+.toltip_wrapper i{
+    color:red;
+    width: 75px;
+    height: 75px;
+    display: block;
+    position: absolute;
+    top: -17px;
+    right: -30px;
+}
+
+/* Facebook Application ends here. */
+
+
+
+
+/* Dynamic Section style start here.
+==================================== */
+
+#section_output{
+    font-size: 20px;
+}
+/* Dynamic Section style ends here. */
+
+
+
+/* Form Submit part start here. */
+/* Form Submit part ends here. */
+
+
+
+/* Biyer Boyos check application part start here. */
+/* Biyer Boyos check application part ends here. */
+
+
+
+
+/* Area_calculator part start here. 
+===================================*/
+
+#area_form .cir, .rec, .tri, .squ{
+    display: none;
+}
+
+
+/* Area_calculator part ends here. */
